@@ -1,28 +1,30 @@
-#EAGER-Regionalism
+# EAGER-Regionalism
 
-My web crawlers for ICSI's Eager Regionalism project studying the balkanization of the Internet through geoblocking.
+Web crawlers for ICSI's Eager Regionalism project studying the balkanization of the Internet through geoblocking.
 
-#Twitter Search
+# Twitter Search
 
-##GENERAL
+## GENERAL
 
 This program searches Twitter for a specified number of Tweets for a specified list of queries and returns a text file of the tweets.
 
 It also provides a function to construct a bar chart of the number of tweets by location.
 
-##PREREQ
+## PREREQ
 
-twitter API
+install twitter API in terminal using 
 
-install in terminal using —> pip3 install twitter
+```bash
+pip install twitter
+```
 
-matplotlib
+install matplotlib in terminal using
 
-install in terminal using —> pip3 install matplotlib
+```bash
+pip install matplotlib
+```
 
-download the TwitterSearchV2 file from the Drive folder, and make sure that the SearchTwitter.sh file and the TwitterSearchV2.py file are in the same directory
-
-##USAGE
+## USAGE
 
 Run the script from the terminal:
 1. Set cd to the directory that the SearchTwitter script is located in.
@@ -32,29 +34,37 @@ Run the script from the terminal:
 
 You should see this output once execution is finished: “The program has finished executing”
 
-#Google Search
+# Google Search
 
-##GENERAL
+## GENERAL
 
 This program searches Google for various keywords and returns a text file of the HTML responses of each URL found.
 
-##PREREQ
+## PREREQ
 
-google API
+install google API in terminal using 
 
-install in terminal using —> pip3 install google
+```bash
+pip install google
+```
 
-BeautifulSoup
+install BeautifulSoup in terminal using
 
-install in terminal using —-> pip3 install bs4
+```bash
+pip install bs4
+```
 
-html2text
+install html2text in terminal using 
 
-install in terminal using —-> pip3 install html2text
+```bash
+pip install html2text
+```
 
-selenium
+install selenium in terminal using 
 
-install in terminal using —-> pip3 install selenium
+```bash
+pip install selenium
+```
 
 You will need the ChromeDriver. It can be downloaded at this link: https://sites.google.com/a/chromium.org/chromedriver/
 
@@ -62,7 +72,7 @@ Once you download ChromeDriver, add its location to the system PATH. When the pr
 
 Download the GoogleSearchV2 file from the Drive folder, and make sure that the SearchGoogle.sh file and the GoogleSearchV2.py file are in the same directory
 
-##USAGE
+## USAGE
 
 Run the script from the terminal:
 1. Set cd to the directory that the SearchGoogle script is located in.
